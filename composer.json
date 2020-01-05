@@ -1,13 +1,14 @@
 {
     "name": "laravelha/preset-api",
     "description": "Laravelha preset",
+    "keywords": ["Api", "Laravel", "Preset"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Pedro Augusto",
             "email": "pedro.e@ufv.br"
         }
     ],
-    "keywords": ["Api", "Laravel", "Preset"],
     "require": {
         "darkaonline/l5-swagger": "^6.0",
         "fruitcake/laravel-cors": "^1.0",
