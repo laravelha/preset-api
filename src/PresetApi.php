@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\File;
 
 class PresetApi extends Preset
 {
-    const STUBSPATH = __DIR__ . '/../stubs';
+    const STUBSPATH = __DIR__ . '/stubs';
 
     /**
      * Install the preset.
