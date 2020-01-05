@@ -1,0 +1,29 @@
+{
+    "name": "laravelha/preset-api",
+    "description": "Laravelha preset",
+    "authors": [
+        {
+            "name": "Pedro Augusto",
+            "email": "pedro.e@ufv.br"
+        }
+    ],
+    "keywords": ["Api", "Laravel", "Preset"],
+    "require": {
+        "darkaonline/l5-swagger": "^6.0",
+        "fruitcake/laravel-cors": "^1.0",
+        "illuminate/support": "^6.0",
+        "laravelha/support": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laravelha\\Api\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laravelha\\Api\\PresetServiceProvider"
+            ]
+        }
+    }
+}
