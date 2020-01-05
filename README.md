@@ -16,6 +16,11 @@ php artisan preset ha-api
 * [L5-Swagger](https://github.com/DarkaOnLine/L5-Swagger)
 * [laravel-cors](https://github.com/fruitcake/laravel-cors)
 
+## Screenshots
+
+![Categories](/.github/images/laravelha-poc-api.jpeg)
+![News/Articles](/.github/images/laravelha-poc-api-package.jpeg)
+
 
 
 
