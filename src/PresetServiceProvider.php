@@ -17,8 +17,6 @@ class PresetServiceProvider extends ServiceProvider
     {
         UiCommand::macro('ha-api', function (Command $command) {
 
-            $command->call('preset', ['type' => 'none']);
-
             PresetApi::install();
 
             $command->info('API scaffolding installed successfully.');
