@@ -2,8 +2,8 @@
 
 namespace Laravelha\Api;
 
-use Illuminate\Foundation\Console\Presets\Preset;
 use Illuminate\Support\Facades\File;
+use Laravel\Ui\Presets\Preset;
 
 class PresetApi extends Preset
 {
