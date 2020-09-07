@@ -9,7 +9,7 @@ composer require laravelha/preset-api --dev
 ```
 2. Run command 
 ```shell script
-php artisan preset ha-api
+php artisan ui ha-api
 ```
 
 ## Requirements
