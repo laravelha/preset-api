@@ -10,9 +10,8 @@
         }
     ],
     "require": {
-        "darkaonline/l5-swagger": "^6.0|^7.0|^8.0",
-        "fruitcake/laravel-cors": "^1.0|^2.0",
-        "illuminate/support": "^6.0|^7.0|^8.0",
+        "darkaonline/l5-swagger": "^8.0",
+        "illuminate/support": "^8.0",
         "laravel/ui": "^2.0",
         "laravelha/support": "^1.0"
     },

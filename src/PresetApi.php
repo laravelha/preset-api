@@ -16,11 +16,6 @@ class PresetApi extends Preset
      */
     public static function install(): void
     {
-        static::updatePhpUnit();
-
-        static::publishCorsConfig();
-        static::updateHttpKernel();
-
         static::publishSwaggerConfig();
         static::updateWebRouteDoc();
         static::updateBaseController();
@@ -99,7 +94,7 @@ class PresetApi extends Preset
      */
     protected static function appendGenerateAlways(): void
     {
-        File::append(base_path('.env'), "L5_SWAGGER_GENERATE_ALWAYS=true\n");
+        File::append(base_path('.env'), "\nL5_SWAGGER_GENERATE_ALWAYS=true\n");
         File::append(base_path('.env.example'), "L5_SWAGGER_CONST_HOST=http://localhost:8000\n");
     }
 
